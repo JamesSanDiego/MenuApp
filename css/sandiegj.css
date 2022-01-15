@@ -1,0 +1,56 @@
+/* sandiegj.css*/
+.gridArea{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "listArea buttonArea"
+  ;
+  gap: 2px;
+}
+
+#listArea{
+  grid-area: listArea;
+  background-color: red;
+}
+#buttonArea{
+  grid-area: buttonArea;
+  background-color: orange;
+}
+
+#h4{
+  font-family: monospace;
+  font-size: large;
+}
+#buttons{
+  text-align: center;
+  margin: 5px;
+}
+
+.toggleButton{
+  color: purple;
+  text-decoration: underline;
+  border: thick solid yellow;
+  font-weight: bold;
+}
+
+#header{
+  text-align: center;
+  font-style: italic;
+  font-family: monospace;
+}
+
+#footer{
+  text-align: center;
+  font-style: italic;
+  font-family: monospace;
+}
+
+.goToPage2{
+  background-color: black;
+  text-decoration: none;
+  color: red;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 1em;
+  padding: 2px;
+}
